@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PhotoTransformer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FileFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">JPG</Value>
+    </Setting>
+    <Setting Name="QualityLevel" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="DirectoryForPhotoTransforming" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\ben.degens\Desktop\booth bruiloft\2018-04-06</Value>
+    </Setting>
+    <Setting Name="PreFixPhotoName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Transformation_MirrorType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Vertical</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
