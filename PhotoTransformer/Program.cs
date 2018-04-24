@@ -14,6 +14,7 @@ namespace PhotoTransformer
         static readonly string DirectoryForPhotoTransforming = Settings.Default.DirectoryForPhotoTransforming;
         static readonly int QualityLevel = Settings.Default.QualityLevel;
         static readonly string PreFixPhotoName = Settings.Default.PreFixPhotoName;
+        static readonly int PhotoNumberStarting = Settings.Default.PhotoNameNumberStarting;
 
         static FileFormat FileFormat;
         static MirrorType MirrorType;
@@ -85,10 +86,12 @@ namespace PhotoTransformer
         {
             for (int i = 0; i < PhotoLocations.Length; i++)
             {
-                Console.Write($"\rTransforming photo nr: { i + 1}   ");
+                int photoNumber = i + PhotoNumberStarting;
+
+                Console.Write($"\rTransforming photo nr: { photoNumber }   ");
 
                 var photo = LoadAndMirrorPhoto(PhotoLocations[i]);
-                SaveMirroredPhoto(photo, i);
+                SaveMirroredPhoto(photo, photoNumber);
             }
         }
 

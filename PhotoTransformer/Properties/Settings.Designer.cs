@@ -43,15 +43,6 @@ namespace PhotoTransformer.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\ben.degens\\Desktop\\booth bruiloft\\2018-04-06")]
-        public string DirectoryForPhotoTransforming {
-            get {
-                return ((string)(this["DirectoryForPhotoTransforming"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string PreFixPhotoName {
             get {
@@ -61,10 +52,28 @@ namespace PhotoTransformer.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Vertical")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\ben.degens\\Desktop\\2018-04-08")]
+        public string DirectoryForPhotoTransforming {
+            get {
+                return ((string)(this["DirectoryForPhotoTransforming"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Horizontal")]
         public string Transformation_MirrorType {
             get {
                 return ((string)(this["Transformation_MirrorType"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int PhotoNameNumberStarting {
+            get {
+                return ((int)(this["PhotoNameNumberStarting"]));
             }
         }
     }

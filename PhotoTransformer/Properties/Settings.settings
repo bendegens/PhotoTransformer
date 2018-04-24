@@ -8,14 +8,17 @@
     <Setting Name="QualityLevel" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">100</Value>
     </Setting>
-    <Setting Name="DirectoryForPhotoTransforming" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\ben.degens\Desktop\booth bruiloft\2018-04-06</Value>
-    </Setting>
     <Setting Name="PreFixPhotoName" Type="System.String" Scope="Application">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="DirectoryForPhotoTransforming" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\ben.degens\Desktop\2018-04-08</Value>
+    </Setting>
     <Setting Name="Transformation_MirrorType" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Vertical</Value>
+      <Value Profile="(Default)">Horizontal</Value>
+    </Setting>
+    <Setting Name="PhotoNameNumberStarting" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
     </Setting>
   </Settings>
 </SettingsFile>
